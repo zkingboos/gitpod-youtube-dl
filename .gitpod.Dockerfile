@@ -1,4 +1,4 @@
 FROM gitpod/workspace-full
 
 RUN sudo apt-get update \
-	&& sudo apt-get install youtube-dl
+	&& sudo apt-get install youtube-dl -y 
